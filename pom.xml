@@ -8,8 +8,11 @@
 	<packaging>pom</packaging>
 	<name>EasyMessage</name>
 	<modules>
-		<module>kafka-sdk</module>
+		<module>kafka-consumer-sdk</module>
 		<module>utils</module>
+		<module>kafka-producer-sdk</module>
+		<module>smart-connector</module>
+		<module>message-processor</module>
 	</modules>
 	<dependencies>
 		<dependency>
