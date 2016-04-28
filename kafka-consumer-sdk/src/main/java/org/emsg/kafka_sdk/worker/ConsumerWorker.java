@@ -8,9 +8,9 @@ import org.slf4j.LoggerFactory;
 import kafka.consumer.ConsumerIterator;
 import kafka.consumer.KafkaStream;
 
-public class ConsumerWorker<T> implements Runnable {
+public class ConsumerWorker<K, V> implements Runnable {
 
-	private KafkaStream mStream;
+	private KafkaStream<K, V> mStream;
 	private int threadNo;
 
 	private final static Logger log = LoggerFactory.getLogger(ConsumerWorker.class);
@@ -22,11 +22,12 @@ public class ConsumerWorker<T> implements Runnable {
 
 	public void run() {
 		// TODO Auto-generated method stub
-		MessageHandler<T> msgHandler = new DefaultMessageHandlerImpl();
+		MessageHandler<V> msgHandler = new DefaultMessageHandlerImpl();
 		ConsumerIterator it = mStream.iterator();
 		while (it.hasNext()) {
-			msgHandler.dealMessage((T) it.next().message());
-			log.info("thread:" + threadNo + " get message:" + it.next().message());
+			Object o = it.next().message();
+			msgHandler.dealMessage((V) o);
+			log.info("thread:" + threadNo + " get message:" + o);
 		}
 	}
 

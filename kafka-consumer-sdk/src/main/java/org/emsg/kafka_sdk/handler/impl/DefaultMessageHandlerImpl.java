@@ -6,7 +6,7 @@ public class DefaultMessageHandlerImpl<String> implements MessageHandler<String>
 
 	public void dealMessage(String msg) {
 		// TODO Auto-generated method stub
-		System.out.println(msg);
+			System.out.println(msg);
 	}
 
 }
