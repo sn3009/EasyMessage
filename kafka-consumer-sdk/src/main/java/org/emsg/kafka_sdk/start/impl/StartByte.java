@@ -5,10 +5,10 @@ import org.emsg.kafka_sdk.core.ConsumerEngine;
 import org.emsg.kafka_sdk.start.StartInterface;
 
 import kafka.serializer.Decoder;
-import kafka.serializer.StringDecoder;
+import kafka.serializer.DefaultDecoder;
 
-public class Start implements StartInterface {
-	
+public class StartByte implements StartInterface {
+
 	public static void main(String [] args){
 		Start s = new Start();
 		s.start();
@@ -16,8 +16,9 @@ public class Start implements StartInterface {
 
 	public void start() {
 		// TODO Auto-generated method stub
-		ConsumerEngine<String, String> ce = new ConsumerEngine<String, String>("sdk", Integer.parseInt(ConsumerInit.PARTITION_STATEGY));
-		Decoder<String> stringDecoder = new StringDecoder(null);
-		ce.run(stringDecoder, stringDecoder);
+		ConsumerEngine<byte[], byte[]> ce = new ConsumerEngine<byte[], byte[]>("sdk", Integer.parseInt(ConsumerInit.PARTITION_STATEGY));
+		Decoder<byte[]> decoder = new DefaultDecoder(null);
+		ce.run(decoder, decoder);
 	}
+
 }

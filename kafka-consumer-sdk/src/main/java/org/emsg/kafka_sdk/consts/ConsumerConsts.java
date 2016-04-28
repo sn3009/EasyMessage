@@ -22,4 +22,5 @@ public class ConsumerConsts {
     public final static String MAX_THREAD = "worker_max_thread_num";
     public final static String DEFAULT_THREAD = "worker_default_thread_num";
     public final static String PARTITION_STATEGY = "partition_strategy";
+    public final static String POLL_TIMEOUT = "poll_timeout";
 }

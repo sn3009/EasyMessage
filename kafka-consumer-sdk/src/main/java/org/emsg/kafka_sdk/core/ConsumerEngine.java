@@ -28,7 +28,7 @@ public class ConsumerEngine<K, V> {
 		this.threadNum = threadNum;
 	}
 	
-	public void start(Decoder<K> keyDecoder, Decoder<V> valueDecoder){
+	public void run(Decoder<K> keyDecoder, Decoder<V> valueDecoder){
 		Map<String, Integer> topicCountMap = new HashMap<String, Integer>();
         topicCountMap.put(topic, threadNum);
         Map<String, List<KafkaStream<K, V>>> consumerMap = consumer.createMessageStreams(topicCountMap, keyDecoder, valueDecoder);

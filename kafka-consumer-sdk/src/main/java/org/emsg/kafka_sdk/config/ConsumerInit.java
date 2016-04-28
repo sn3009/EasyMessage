@@ -24,6 +24,11 @@ public class ConsumerInit {
 	
 	public static String PARTITION_STATEGY;
 	
+	/**
+	 * Pool message time out time.
+	 */
+	public static Long POLL_TIMEOUT;
+	
 	static{
 		PropertiesFileInit property = new PropertiesFileInit();
 		InputStream in = ConsumerInit.class.getResourceAsStream(ConsumerConsts.CONSUMER_CONFIG_FILE_PATH);
@@ -47,6 +52,7 @@ public class ConsumerInit {
 		WORKER_MAX_THREAD_NUM = CONFIG_PROP.getProperty(ConsumerConsts.MAX_THREAD);
 		WORKER_DEFAULT_THREAD_NUM = CONFIG_PROP.getProperty(ConsumerConsts.DEFAULT_THREAD);
 		PARTITION_STATEGY = CONFIG_PROP.getProperty(ConsumerConsts.PARTITION_STATEGY);
+		POLL_TIMEOUT = Long.parseLong(CONFIG_PROP.getProperty(ConsumerConsts.POLL_TIMEOUT));
 	}
 	
 }
