@@ -27,5 +27,6 @@ public class StartWithThreadTopic<K, V> implements StartWithTopicInterface  {
 		booServer = new ConsumerEngineThreadImpl<>(consumer, handler);
 		
 		MutilSubscribeTopic threadTopic = new MutilSubscribeTopic(consumer, handler, topicList);
+		threadTopic.run();
 	}
 }

@@ -9,8 +9,9 @@ import org.emsg.kafka_sdk.core.ConsumerEngineBootServer;
 import org.emsg.kafka_sdk.core.impl.ConsumerEngineBootStrapImpl;
 import org.emsg.kafka_sdk.handler.MessageHandler;
 import org.emsg.kafka_sdk.handler.impl.DefaultMessageHandlerImpl;
+import org.emsg.kafka_sdk.start.StartWithTopicInterface;
 
-public class StartWithTopic {
+public class StartWithTopic implements StartWithTopicInterface {
 
 	private ConsumerEngineBootServer<String, String> booServer;
 	private MessageHandler<String> handler;
@@ -22,8 +23,5 @@ public class StartWithTopic {
 		booServer = new ConsumerEngineBootStrapImpl<>(consumer, handler);
 		booServer.subscribeTopic(listTopic);
 		
-		//topic with partition
-//		String topic = "sdknew2";
-//		booServer.subscribePartition(topic, 0);
 	}
 }
