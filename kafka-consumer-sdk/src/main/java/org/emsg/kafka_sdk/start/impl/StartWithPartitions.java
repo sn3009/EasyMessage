@@ -29,7 +29,6 @@ public class StartWithPartitions<K, V> implements StartWithPartitionInterface {
 		handler = new DefaultMessageHandlerImpl<>();
 		consumer = new KafkaConsumer<>(ConsumerInit.CONSUMER_PROP);
 		booServer = new ConsumerEngineBootStrapImpl<>(consumer, handler);
-		
 		booServer.subscribePartition(topic, partitons);
 	}
 }
