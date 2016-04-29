@@ -1,4 +1,4 @@
-package org.emsg.kafka_sdk.test;
+package org.emsg.kafka_sdk.start.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,27 +10,22 @@ import org.emsg.kafka_sdk.core.ConsumerEngineBootServer;
 import org.emsg.kafka_sdk.core.impl.ConsumerEngineThreadImpl;
 import org.emsg.kafka_sdk.handler.MessageHandler;
 import org.emsg.kafka_sdk.handler.impl.DefaultMessageHandlerImpl;
-import org.emsg.kafka_sdk.start.StartInterface;
+import org.emsg.kafka_sdk.start.StartWithTopicInterface;
 import org.emsg.kafka_sdk.worker.MutilSubscribePartitions;
 import org.emsg.kafka_sdk.worker.MutilSubscribeTopic;
 
-public class StartWithThread implements StartInterface  {
+public class StartWithThreadTopic<K, V> implements StartWithTopicInterface  {
 
-	private ConsumerEngineBootServer<String, String> booServer;
-	private MessageHandler<String> handler;
-	private Consumer<String, String> consumer;
+	private ConsumerEngineBootServer<K, V> booServer;
+	private MessageHandler<V> handler;
+	private Consumer<K, V> consumer;
 	
 	@Override
-	public void start() {
+	public void start(List<String> topicList) {
 		handler = new DefaultMessageHandlerImpl<>();
 		consumer = new KafkaConsumer<>(ConsumerInit.CONSUMER_PROP);
 		booServer = new ConsumerEngineThreadImpl<>(consumer, handler);
 		
-		List<String> listTopic = new ArrayList<>();
-		listTopic.add("sdk-new-3");
-		MutilSubscribeTopic threadTopic = new MutilSubscribeTopic(consumer, handler, listTopic);
-		
-		MutilSubscribePartitions threadPartition = new MutilSubscribePartitions(consumer, handler, "sdk-4", 1);
-		threadPartition.run();
+		MutilSubscribeTopic threadTopic = new MutilSubscribeTopic(consumer, handler, topicList);
 	}
 }
