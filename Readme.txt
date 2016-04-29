@@ -1,3 +1,9 @@
+kafka简易启动脚本
+#!/bin/bash
+bin/kafka-server-start.sh config/server.properties &
+
+
+
 EasyMessage是一个开源的即时通信框架，
 采用kafka做消息队列处理，
 采用redis做缓存处理，
