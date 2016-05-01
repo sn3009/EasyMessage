@@ -11,7 +11,7 @@
 	<groupId>easy-message</groupId>
 	<artifactId>kafka-sdk</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kafka-sdk</name>
+	<name>kafka-consumer-sdk</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
