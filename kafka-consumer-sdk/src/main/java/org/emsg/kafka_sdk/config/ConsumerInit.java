@@ -2,9 +2,6 @@ package org.emsg.kafka_sdk.config;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 import java.util.Properties;
 
 import org.ems.utils.PropertiesFileInit;
