@@ -4,6 +4,7 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.emsg.kafka_sdk.config.ProducerInit;
 import org.emsg.kafka_sdk.core.ProducerCore;
+import org.emsg.kafka_sdk.handler.MessageCallBackHandler;
 import org.emsg.kafka_sdk.handler.SendMessageHandlerInterface;
 
 public class StringMessageHandler implements SendMessageHandlerInterface {
@@ -24,10 +25,10 @@ public class StringMessageHandler implements SendMessageHandlerInterface {
 		this.value = value;
 	}
 
-	public void send() {
+	public void send(MessageCallBackHandler callBackHandler) {
 		Producer<String, String> producer = new KafkaProducer<>(ProducerInit.PRODUCER_PROP);
 		ProducerCore sendEngine = new ProducerCore(producer);
-		sendEngine.sendMessage(topic, partition, key, value);
+		sendEngine.sendMessage(topic, partition, key, value, callBackHandler);
 	}
 
 }
