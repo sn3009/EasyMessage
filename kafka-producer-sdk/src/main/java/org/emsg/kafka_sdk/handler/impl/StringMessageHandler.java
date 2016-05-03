@@ -15,6 +15,7 @@ public class StringMessageHandler implements SendMessageHandlerInterface {
 	private String value;
 
 	private int partition;
+	
 
 	public StringMessageHandler(String topic, int partition, String key, String value) {
 		this.topic = topic;
@@ -23,10 +24,9 @@ public class StringMessageHandler implements SendMessageHandlerInterface {
 		this.value = value;
 	}
 
-	@Override
 	public void send() {
 		Producer<String, String> producer = new KafkaProducer<>(ProducerInit.PRODUCER_PROP);
-		ProducerCore<String, String> sendEngine = new ProducerCore<>(producer);
+		ProducerCore sendEngine = new ProducerCore(producer);
 		sendEngine.sendMessage(topic, partition, key, value);
 	}
 

@@ -12,7 +12,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;;
  */
 public class ProducerCore<K, V> {
 	
-	private final Producer<K, V> producer;
+	private Producer<K, V> producer;
 	private ProducerRecord<K, V> record;
 	
 	public ProducerCore(Producer<K, V> producer){
@@ -57,5 +57,6 @@ public class ProducerCore<K, V> {
 	
 	private void sendMessage(ProducerRecord<K, V> record){
 		producer.send(record);
+		producer.close();
 	}
 }
