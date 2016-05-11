@@ -34,13 +34,13 @@ import java.security.cert.CertificateException;
  *
  * Created by andrea on 13/12/15.
  */
-class DefaultMoquetteSslContextCreator implements ISslContextCreator {
+class DefaultSmartConnectorSslContextCreator implements ISslContextCreator {
 
-    private static final Logger LOG = LoggerFactory.getLogger(DefaultMoquetteSslContextCreator.class);
+    private static final Logger LOG = LoggerFactory.getLogger(DefaultSmartConnectorSslContextCreator.class);
 
     private IConfig props;
 
-    public DefaultMoquetteSslContextCreator(IConfig props) {
+    public DefaultSmartConnectorSslContextCreator(IConfig props) {
         this.props = props;
     }
 

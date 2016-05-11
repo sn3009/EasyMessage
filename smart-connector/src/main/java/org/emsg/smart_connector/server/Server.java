@@ -125,7 +125,7 @@ public class Server {
         final ProtocolProcessor processor = SimpleMessaging.getInstance().init(config, handlers, authenticator, authorizator);
 
         if (sslCtxCreator == null) {
-            sslCtxCreator = new DefaultMoquetteSslContextCreator(config);
+            sslCtxCreator = new DefaultSmartConnectorSslContextCreator(config);
         }
 
         m_acceptor = new NettyAcceptor();
