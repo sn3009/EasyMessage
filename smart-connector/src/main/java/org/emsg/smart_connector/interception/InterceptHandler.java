@@ -20,8 +20,8 @@ import org.emsg.smart_connector.interception.messages.InterceptDisconnectMessage
 import org.emsg.smart_connector.interception.messages.InterceptPublishMessage;
 import org.emsg.smart_connector.interception.messages.InterceptSubscribeMessage;
 import org.emsg.smart_connector.interception.messages.InterceptUnsubscribeMessage;
-import org.emsg.smart_connector.proto.messages.AbstractMessage;
-import org.emsg.smart_connector.spi.impl.subscriptions.Subscription;
+import org.emsg.smart_connector.message.mqtt.AbstractMessage;
+import org.emsg.smart_connector.message.subscriptions.Subscription;
 
 /**
  * This interface is used to inject code for intercepting broker events.

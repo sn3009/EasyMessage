@@ -15,9 +15,9 @@
  */
 package org.emsg.smart_connector.interception;
 
-import org.emsg.smart_connector.proto.messages.ConnectMessage;
-import org.emsg.smart_connector.proto.messages.PublishMessage;
-import org.emsg.smart_connector.spi.impl.subscriptions.Subscription;
+import org.emsg.smart_connector.message.mqtt.ConnectMessage;
+import org.emsg.smart_connector.message.mqtt.PublishMessage;
+import org.emsg.smart_connector.message.subscriptions.Subscription;
 
 /**
  * This interface is to be used internally by the broker components.

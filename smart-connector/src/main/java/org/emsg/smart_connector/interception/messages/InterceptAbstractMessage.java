@@ -15,7 +15,7 @@
  */
 package org.emsg.smart_connector.interception.messages;
 
-import org.emsg.smart_connector.proto.messages.AbstractMessage;
+import org.emsg.smart_connector.message.mqtt.AbstractMessage;
 
 /**
  * @author Wagner Macedo

@@ -2,7 +2,7 @@ package org.emsg.smart_connector.interception.messages;
 
 import java.nio.ByteBuffer;
 
-import org.emsg.smart_connector.proto.messages.PublishMessage;
+import org.emsg.smart_connector.message.mqtt.PublishMessage;
 
 /**
  * @author Wagner Macedo

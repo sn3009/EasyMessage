@@ -1,6 +1,6 @@
 package org.emsg.smart_connector.interception.messages;
 
-import org.emsg.smart_connector.proto.messages.ConnectMessage;
+import org.emsg.smart_connector.message.mqtt.ConnectMessage;
 
 /**
  * @author Wagner Macedo

@@ -15,18 +15,19 @@
  */
 package org.emsg.smart_connector.server;
 
-import org.emsg.smart_connector.commons.BrokerConstants;
+import org.emsg.smart_connector.commons.config.FilesystemConfig;
+import org.emsg.smart_connector.commons.config.IConfig;
+import org.emsg.smart_connector.commons.config.MemoryConfig;
+import org.emsg.smart_connector.commons.constants.BrokerConstants;
 import org.emsg.smart_connector.interception.InterceptHandler;
-import org.emsg.smart_connector.proto.messages.PublishMessage;
-import org.emsg.smart_connector.server.config.FilesystemConfig;
-import org.emsg.smart_connector.server.config.IConfig;
-import org.emsg.smart_connector.server.config.MemoryConfig;
-import org.emsg.smart_connector.server.netty.NettyAcceptor;
-import org.emsg.smart_connector.spi.impl.ProtocolProcessor;
-import org.emsg.smart_connector.spi.impl.SimpleMessaging;
-import org.emsg.smart_connector.spi.security.IAuthenticator;
-import org.emsg.smart_connector.spi.security.IAuthorizator;
-import org.emsg.smart_connector.spi.security.ISslContextCreator;
+import org.emsg.smart_connector.message.ProtocolProcessor;
+import org.emsg.smart_connector.message.SimpleMessaging;
+import org.emsg.smart_connector.message.mqtt.PublishMessage;
+import org.emsg.smart_connector.netty.ServerAcceptor;
+import org.emsg.smart_connector.netty.acceptor.NettyAcceptor;
+import org.emsg.smart_connector.security.IAuthenticator;
+import org.emsg.smart_connector.security.IAuthorizator;
+import org.emsg.smart_connector.security.ISslContextCreator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

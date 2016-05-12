@@ -15,9 +15,9 @@
  */
 package org.emsg.smart_connector.server;
 
-import org.emsg.smart_connector.commons.BrokerConstants;
-import org.emsg.smart_connector.server.config.IConfig;
-import org.emsg.smart_connector.spi.security.ISslContextCreator;
+import org.emsg.smart_connector.commons.config.IConfig;
+import org.emsg.smart_connector.commons.constants.BrokerConstants;
+import org.emsg.smart_connector.security.ISslContextCreator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,7 +34,7 @@ import java.security.cert.CertificateException;
  *
  * Created by andrea on 13/12/15.
  */
-class DefaultSmartConnectorSslContextCreator implements ISslContextCreator {
+public class DefaultSmartConnectorSslContextCreator implements ISslContextCreator {
 
     private static final Logger LOG = LoggerFactory.getLogger(DefaultSmartConnectorSslContextCreator.class);
 
