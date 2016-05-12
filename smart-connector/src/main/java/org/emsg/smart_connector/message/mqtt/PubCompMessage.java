@@ -17,7 +17,7 @@ package org.emsg.smart_connector.message.mqtt;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class PubCompMessage extends MessageIDMessage {
     

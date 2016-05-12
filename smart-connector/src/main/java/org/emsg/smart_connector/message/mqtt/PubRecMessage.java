@@ -18,7 +18,7 @@ package org.emsg.smart_connector.message.mqtt;
 /**
  * Placeholder for PUBREC message.
  * 
- * @author andrea
+ * @author shuttle
  */
 public class PubRecMessage extends MessageIDMessage {
     

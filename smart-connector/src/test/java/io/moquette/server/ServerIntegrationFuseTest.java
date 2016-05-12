@@ -32,7 +32,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class ServerIntegrationFuseTest {
     private static final Logger LOG = LoggerFactory.getLogger(ServerIntegrationPahoTest.class);

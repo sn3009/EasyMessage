@@ -33,7 +33,7 @@ import org.emsg.smart_connector.message.subscriptions.Subscription;
  * <code>onSubscribe</code> and <code>onUnsubscribe</code> that receive a
  * {@link Subscription} object.
  *
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public interface InterceptHandler {
 

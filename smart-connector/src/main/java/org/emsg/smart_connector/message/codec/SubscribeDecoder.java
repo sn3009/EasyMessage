@@ -26,7 +26,7 @@ import org.emsg.smart_connector.message.mqtt.AbstractMessage.QOSType;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class SubscribeDecoder extends DemuxDecoder {
 

@@ -39,7 +39,7 @@ import java.util.Properties;
 
 /**
  * Launch a  configured version of the server.
- * @author andrea
+ * @author shuttle
  */
 public class Server {
     

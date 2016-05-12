@@ -23,7 +23,7 @@ import java.text.ParseException;
 import static org.junit.Assert.*;
 
 /**
- * @author andrea
+ * @author shuttle
  */
 public class AuthorizationsCollectorTest {
 

@@ -22,7 +22,7 @@ package org.emsg.smart_connector.security;
  * The # is always a terminator and its the multilevel matcher.
  * The + sign is the single level matcher.
  *
- * @author andrea
+ * @author shuttle
  */
 public interface IAuthorizator {
 

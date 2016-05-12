@@ -23,7 +23,7 @@ import org.emsg.smart_connector.message.mqtt.MessageIDMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 abstract class MessageIDDecoder extends DemuxDecoder {
     

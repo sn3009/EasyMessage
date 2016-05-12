@@ -1,7 +1,7 @@
 package org.emsg.smart_connector.interception.messages;
 
 /**
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public class InterceptUnsubscribeMessage {
     private final String topicFilter;

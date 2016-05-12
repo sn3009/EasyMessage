@@ -23,7 +23,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class TestCallback implements MqttCallback {
 

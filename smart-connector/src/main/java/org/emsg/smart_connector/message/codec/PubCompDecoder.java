@@ -21,7 +21,7 @@ import org.emsg.smart_connector.message.mqtt.PubCompMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class PubCompDecoder extends MessageIDDecoder {
 

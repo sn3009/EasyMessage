@@ -20,7 +20,7 @@ import org.emsg.smart_connector.message.mqtt.PubRecMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class PubRecDecoder extends MessageIDDecoder {
 

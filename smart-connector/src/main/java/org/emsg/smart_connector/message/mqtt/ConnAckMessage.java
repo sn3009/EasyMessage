@@ -18,7 +18,7 @@ package org.emsg.smart_connector.message.mqtt;
 /**
  * The attributes Qos, Dup and Retain aren't used.
  * 
- * @author andrea
+ * @author shuttle
  */
 public class ConnAckMessage extends AbstractMessage {
     public static final byte CONNECTION_ACCEPTED = 0x00;

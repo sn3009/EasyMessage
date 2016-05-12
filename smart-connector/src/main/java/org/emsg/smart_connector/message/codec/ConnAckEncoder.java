@@ -23,7 +23,7 @@ import io.netty.channel.ChannelHandlerContext;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class ConnAckEncoder extends DemuxEncoder<ConnAckMessage>{
 

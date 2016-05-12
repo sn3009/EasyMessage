@@ -26,7 +26,7 @@ import java.text.ParseException;
  * If a line starts with # it's comment.
  * Blank lines are skipped. The format is "topic [read|write|readwrite] <topic name>"
  *
- * @author andrea
+ * @author shuttle
  * */
 public class ACLFileParser {
     private static final Logger LOG = LoggerFactory.getLogger(ACLFileParser.class);

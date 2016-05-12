@@ -25,7 +25,7 @@ import java.util.Properties;
 /**
  * Configuration that loads file from the file system
  *
- * @author andrea
+ * @author shuttle
  */
 public class FilesystemConfig implements IConfig {
     private static final Logger LOG = LoggerFactory.getLogger(FilesystemConfig.class);

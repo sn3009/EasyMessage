@@ -24,7 +24,7 @@ import org.emsg.smart_connector.message.mqtt.AbstractMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 abstract class DemuxDecoder {
     abstract void decode(AttributeMap ctx, ByteBuf in, List<Object> out) throws Exception;

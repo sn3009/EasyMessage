@@ -52,7 +52,7 @@ import io.netty.handler.codec.CorruptedFrameException;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 @Sharable
 public class NettyMQTTHandler extends ChannelInboundHandlerAdapter {

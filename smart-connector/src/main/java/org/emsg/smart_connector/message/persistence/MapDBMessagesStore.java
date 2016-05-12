@@ -27,7 +27,7 @@ import java.util.concurrent.ConcurrentMap;
 /**
  * IMessagesStore implementation backed by MapDB.
  *
- * @author andrea
+ * @author shuttle
  */
 class MapDBMessagesStore implements IMessagesStore {
 

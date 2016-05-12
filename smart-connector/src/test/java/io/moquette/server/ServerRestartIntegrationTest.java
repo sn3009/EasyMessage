@@ -29,7 +29,7 @@ import static org.junit.Assert.assertNull;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class ServerRestartIntegrationTest {
 

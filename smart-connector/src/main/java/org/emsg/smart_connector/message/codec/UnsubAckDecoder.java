@@ -20,7 +20,7 @@ import org.emsg.smart_connector.message.mqtt.UnsubAckMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class UnsubAckDecoder extends MessageIDDecoder {
 

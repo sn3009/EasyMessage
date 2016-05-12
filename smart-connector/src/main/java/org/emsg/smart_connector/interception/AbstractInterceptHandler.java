@@ -20,7 +20,7 @@ import org.emsg.smart_connector.interception.messages.*;
 /**
  * Basic abstract class usefull to avoid empty methods creation in subclasses.
  *
- * Created by andrea on 08/12/15.
+ * @author Shuttle.
  */
 public abstract class AbstractInterceptHandler implements InterceptHandler {
 

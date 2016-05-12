@@ -52,7 +52,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Check that Moquette could also handle SSL.
  * 
- * @author andrea
+ * @author shuttle
  */
 public class ServerIntegrationSSLTest {
     private static final Logger LOG = LoggerFactory.getLogger(ServerIntegrationSSLTest.class);

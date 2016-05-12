@@ -8,7 +8,7 @@ import org.emsg.smart_connector.message.mqtt.ConnAckMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class ConnAckDecoder extends DemuxDecoder {
 

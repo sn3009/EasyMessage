@@ -26,7 +26,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 @ChannelHandler.Sharable
 class ClientNettyMQTTHandler extends ChannelInboundHandlerAdapter {

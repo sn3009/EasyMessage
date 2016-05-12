@@ -24,7 +24,7 @@ import org.emsg.smart_connector.message.mqtt.SubAckMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class SubAckDecoder extends DemuxDecoder {
 

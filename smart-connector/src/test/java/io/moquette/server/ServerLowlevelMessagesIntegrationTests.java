@@ -38,7 +38,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class ServerLowlevelMessagesIntegrationTests {
     private static final Logger LOG = LoggerFactory.getLogger(ServerLowlevelMessagesIntegrationTests.class);

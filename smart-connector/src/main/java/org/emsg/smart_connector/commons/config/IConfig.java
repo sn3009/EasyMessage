@@ -18,7 +18,7 @@ package org.emsg.smart_connector.commons.config;
 /**
  * Base interface for all configuration implementations (filesystem, memory or classpath)
  *
- * @author andrea
+ * @author shuttle
  */
 public interface IConfig {
     void setProperty(String name, String value);

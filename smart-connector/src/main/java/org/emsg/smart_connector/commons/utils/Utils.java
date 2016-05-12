@@ -20,7 +20,7 @@ import org.emsg.smart_connector.message.mqtt.AbstractMessage;
 /**
  * Common utils methodd used in codecs.
  * 
- * @author andrea
+ * @author shuttle
  */
 public class Utils {
     

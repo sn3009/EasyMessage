@@ -29,7 +29,7 @@ import org.emsg.smart_connector.message.subscriptions.Subscription;
 /**
  * An interceptor that execute the interception tasks asynchronously.
  *
- * @author Wagner Macedo
+ * @author Shuttle
  */
 final class BrokerInterceptor implements Interceptor {
     private final List<InterceptHandler> handlers;

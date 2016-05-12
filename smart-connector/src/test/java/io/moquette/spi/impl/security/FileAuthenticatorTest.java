@@ -23,7 +23,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class FileAuthenticatorTest {
     

@@ -25,7 +25,7 @@ import org.emsg.smart_connector.message.mqtt.AbstractMessage.QOSType;
  * and at which QoS
  * 
  * 
- * @author andrea
+ * @author shuttle
  */
 public class Subscription implements Serializable {
     

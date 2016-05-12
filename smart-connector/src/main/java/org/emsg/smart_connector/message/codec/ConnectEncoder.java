@@ -23,7 +23,7 @@ import io.netty.channel.ChannelHandlerContext;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class ConnectEncoder extends DemuxEncoder<ConnectMessage> {
 

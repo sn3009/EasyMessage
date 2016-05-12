@@ -19,7 +19,7 @@ import java.nio.ByteBuffer;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class DebugUtils {
     static String  payload2Str(ByteBuffer content) {

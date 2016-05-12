@@ -29,7 +29,7 @@ import java.util.*;
  *
  * Not thread safe.
  *
- * @author andrea
+ * @author shuttle
  */
 class AuthorizationsCollector implements IAuthorizator {
 

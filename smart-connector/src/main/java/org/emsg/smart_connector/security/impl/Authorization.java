@@ -20,7 +20,7 @@ import static org.emsg.smart_connector.security.impl.Authorization.Permission.RE
 /**
  * Carries the read/write authorization to topics for the users.
  *
- * @author andrea
+ * @author shuttle
  */
 public class Authorization {
     protected final String topic;

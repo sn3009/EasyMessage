@@ -40,7 +40,7 @@ import static org.mockito.Mockito.*;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class ProtocolProcessorTest {
     final static String FAKE_CLIENT_ID = "FAKE_123";

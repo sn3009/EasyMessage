@@ -18,7 +18,7 @@ package org.emsg.smart_connector.security.impl;
 import org.emsg.smart_connector.security.IAuthorizator;
 
 /**
- * @author andrea
+ * @author shuttle
  */
 public class DenyAllAuthorizator implements IAuthorizator {
     @Override

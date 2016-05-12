@@ -18,7 +18,7 @@ package org.emsg.smart_connector.commons.constants;
 import java.io.File;
 
 /**
- * Created by andrea on 08/12/15.
+ * @author Shuttle
  */
 public class BrokerConstants {
     public static final String PERSISTENT_STORE_PROPERTY_NAME = "persistent_store";

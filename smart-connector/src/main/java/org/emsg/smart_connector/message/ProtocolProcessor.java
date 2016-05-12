@@ -55,7 +55,7 @@ import org.slf4j.LoggerFactory;
  * 
  * Used by the front facing class SimpleMessaging.
  * 
- * @author andrea
+ * @author shuttle
  */
 public class ProtocolProcessor {
 

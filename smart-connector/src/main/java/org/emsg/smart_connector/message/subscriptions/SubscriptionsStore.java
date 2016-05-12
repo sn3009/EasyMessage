@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Represents a tree of topics subscriptions.
  *
- * @author andrea
+ * @author shuttle
  */
 public class SubscriptionsStore {
 

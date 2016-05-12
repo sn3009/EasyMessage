@@ -19,7 +19,7 @@ import java.nio.ByteBuffer;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class PublishMessage extends MessageIDMessage {
 

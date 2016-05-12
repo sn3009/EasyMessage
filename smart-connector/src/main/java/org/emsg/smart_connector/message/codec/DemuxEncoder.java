@@ -22,7 +22,7 @@ import io.netty.channel.ChannelHandlerContext;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 abstract class DemuxEncoder<T extends AbstractMessage> {
     abstract protected void encode(ChannelHandlerContext chc, T msg, ByteBuf bb);

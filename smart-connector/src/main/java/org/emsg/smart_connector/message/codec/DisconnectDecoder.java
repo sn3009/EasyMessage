@@ -23,7 +23,7 @@ import org.emsg.smart_connector.message.mqtt.DisconnectMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class DisconnectDecoder extends DemuxDecoder {
 

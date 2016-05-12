@@ -28,7 +28,7 @@ import org.emsg.smart_connector.message.mqtt.AbstractMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class MQTTDecoder extends ByteToMessageDecoder {
     

@@ -32,7 +32,7 @@ import org.junit.Test;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class SubscriptionsStoreTest {
     

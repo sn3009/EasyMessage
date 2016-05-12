@@ -18,7 +18,7 @@ package org.emsg.smart_connector.message.mqtt;
 /**
  * The attributes Qos, Dup and Retain aren't used for Connect message
  * 
- * @author andrea
+ * @author shuttle
  */
 public class ConnectMessage extends AbstractMessage {
     protected String m_protocolName;

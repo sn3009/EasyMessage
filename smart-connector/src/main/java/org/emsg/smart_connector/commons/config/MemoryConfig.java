@@ -23,7 +23,7 @@ import org.emsg.smart_connector.commons.constants.BrokerConstants;
 /**
  * Configuration backed by memory.
  *
- * @author andrea
+ * @author shuttle
  */
 public class MemoryConfig implements IConfig {
 

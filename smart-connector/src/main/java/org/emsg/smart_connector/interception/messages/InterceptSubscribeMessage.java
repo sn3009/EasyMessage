@@ -4,7 +4,7 @@ import org.emsg.smart_connector.message.mqtt.AbstractMessage;
 import org.emsg.smart_connector.message.subscriptions.Subscription;
 
 /**
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public class InterceptSubscribeMessage {
     private final Subscription subscription;

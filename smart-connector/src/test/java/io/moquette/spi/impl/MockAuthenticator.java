@@ -22,7 +22,7 @@ import io.moquette.spi.security.IAuthenticator;
 /**
  * Test utility to implements authenticator instance.
  * 
- * @author andrea
+ * @author shuttle
  */
 class MockAuthenticator implements IAuthenticator {
     

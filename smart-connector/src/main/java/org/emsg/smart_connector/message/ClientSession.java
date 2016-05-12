@@ -41,7 +41,7 @@ import org.slf4j.LoggerFactory;
  *     <li>Optionally, QoS 0 messages pending transmission to the Client.</li>
  * </ul>
  *
- * @author andrea
+ * @author shuttle
  */
 public class ClientSession {
 

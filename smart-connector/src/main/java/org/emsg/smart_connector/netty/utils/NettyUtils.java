@@ -25,7 +25,7 @@ import io.netty.util.AttributeKey;
 /**
  * Some Netty's channels utilities.
  *
- * @author andrea
+ * @author shuttle
  */
 public class NettyUtils {
 

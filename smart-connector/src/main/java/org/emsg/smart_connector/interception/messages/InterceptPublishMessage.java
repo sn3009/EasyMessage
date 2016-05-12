@@ -5,7 +5,7 @@ import java.nio.ByteBuffer;
 import org.emsg.smart_connector.message.mqtt.PublishMessage;
 
 /**
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public class InterceptPublishMessage extends InterceptAbstractMessage {
     private final PublishMessage msg;

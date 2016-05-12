@@ -30,7 +30,7 @@ import org.emsg.smart_connector.message.subscriptions.Subscription;
  * intercept handler.
  *
  * @see InterceptHandler
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public interface Interceptor {
 

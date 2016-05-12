@@ -38,7 +38,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class ServerIntegrationQoSValidationTest {
     

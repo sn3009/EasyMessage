@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 @WebSocket
 public class MQTTWebSocket {

@@ -18,7 +18,7 @@ package org.emsg.smart_connector.message.mqtt;
 /**
  * Basic abstract message for all MQTT protocol messages.
  * 
- * @author andrea
+ * @author shuttle
  */
 public abstract class AbstractMessage {
 

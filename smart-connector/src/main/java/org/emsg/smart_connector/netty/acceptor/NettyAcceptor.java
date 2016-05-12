@@ -65,7 +65,7 @@ import io.netty.util.concurrent.Future;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class NettyAcceptor implements ServerAcceptor {
     

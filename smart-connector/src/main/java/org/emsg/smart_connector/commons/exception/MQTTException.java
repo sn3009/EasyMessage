@@ -17,7 +17,7 @@ package org.emsg.smart_connector.commons.exception;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class MQTTException extends RuntimeException {
 

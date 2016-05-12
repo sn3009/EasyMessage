@@ -23,7 +23,7 @@ import org.emsg.smart_connector.message.subscriptions.Subscription;
 /**
  * Store used to handle the persistence of the subscriptions tree.
  *
- * @author andrea
+ * @author shuttle
  */
 public interface ISessionsStore {
 

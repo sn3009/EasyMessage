@@ -24,7 +24,7 @@ import io.netty.channel.ChannelHandlerContext;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class SubAckEncoder extends DemuxEncoder<SubAckMessage> {
 

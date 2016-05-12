@@ -27,7 +27,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class Utils {
     

@@ -43,7 +43,7 @@ import java.util.List;
  *
  * It's main responsibility is instantiate the ProtocolProcessor.
  *
- * @author andrea
+ * @author shuttle
  */
 public class SimpleMessaging {
 

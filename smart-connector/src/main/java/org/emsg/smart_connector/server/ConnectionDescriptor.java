@@ -22,7 +22,7 @@ import io.netty.channel.Channel;
  * and other clean session fla.
  * 
  * 
- * @author andrea
+ * @author shuttle
  */
 public class ConnectionDescriptor {
     

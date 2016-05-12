@@ -18,7 +18,7 @@ package org.emsg.smart_connector.security;
 /**
  * username and password checker
  * 
- * @author andrea
+ * @author shuttle
  */
 public interface IAuthenticator {
 

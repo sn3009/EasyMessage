@@ -20,7 +20,7 @@ import java.util.List;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class SubAckMessage extends MessageIDMessage {
 

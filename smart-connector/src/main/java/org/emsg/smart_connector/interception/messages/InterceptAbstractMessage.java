@@ -18,7 +18,7 @@ package org.emsg.smart_connector.interception.messages;
 import org.emsg.smart_connector.message.mqtt.AbstractMessage;
 
 /**
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public abstract class InterceptAbstractMessage {
     private final AbstractMessage msg;

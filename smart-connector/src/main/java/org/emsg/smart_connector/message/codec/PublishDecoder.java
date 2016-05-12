@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class PublishDecoder extends DemuxDecoder {
     

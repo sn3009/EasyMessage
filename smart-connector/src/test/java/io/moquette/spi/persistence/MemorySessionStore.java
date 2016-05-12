@@ -28,7 +28,7 @@ import java.util.*;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class MemorySessionStore implements ISessionsStore {
     private static final Logger LOG = LoggerFactory.getLogger(MemorySessionStore.class);

@@ -25,7 +25,7 @@ import java.util.*;
 import static io.moquette.spi.impl.Utils.defaultGet;
 
 /**
- * @author andrea
+ * @author shuttle
  */
 public class MemoryMessagesStore implements IMessagesStore {
 

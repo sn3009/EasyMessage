@@ -25,7 +25,7 @@ import org.emsg.smart_connector.message.mqtt.PubRelMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class PubRelDecoder extends DemuxDecoder {
     

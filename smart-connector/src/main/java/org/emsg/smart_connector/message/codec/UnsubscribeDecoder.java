@@ -25,7 +25,7 @@ import org.emsg.smart_connector.message.mqtt.UnsubscribeMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class UnsubscribeDecoder extends DemuxDecoder {
 

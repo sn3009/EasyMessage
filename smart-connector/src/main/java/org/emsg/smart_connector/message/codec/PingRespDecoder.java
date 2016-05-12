@@ -23,7 +23,7 @@ import org.emsg.smart_connector.message.mqtt.PingRespMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 class PingRespDecoder extends DemuxDecoder {
 

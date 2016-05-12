@@ -27,7 +27,7 @@ import static org.junit.Assert.assertFalse;
 /**
  * Used to carry integration configurations.
  *
- * Created by andrea on 4/7/15.
+ * Shuttle on 4/7/15.
  */
 public class IntegrationUtils {
     static String localMapDBPath() {

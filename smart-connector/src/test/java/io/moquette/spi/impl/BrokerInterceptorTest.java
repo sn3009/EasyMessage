@@ -31,7 +31,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import static org.junit.Assert.*;
 
 /**
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public class BrokerInterceptorTest {
     // value to check for changes after every notification

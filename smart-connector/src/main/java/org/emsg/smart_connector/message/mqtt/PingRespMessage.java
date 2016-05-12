@@ -17,7 +17,7 @@ package org.emsg.smart_connector.message.mqtt;
 
 /**
  * Doesn't care DUP, QOS and RETAIN flags.
- * @author andrea
+ * @author shuttle
  */
 public class PingRespMessage extends ZeroLengthMessage {
     

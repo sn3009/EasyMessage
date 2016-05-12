@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
  * Class used just to send and receive MQTT messages without any protocol login 
  * in action, just use the encoder/decoder part.
  * 
- * @author andrea
+ * @author shuttle
  */
 public class Client {
     

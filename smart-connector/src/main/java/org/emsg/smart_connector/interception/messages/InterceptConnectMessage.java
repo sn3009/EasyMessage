@@ -3,7 +3,7 @@ package org.emsg.smart_connector.interception.messages;
 import org.emsg.smart_connector.message.mqtt.ConnectMessage;
 
 /**
- * @author Wagner Macedo
+ * @author Shuttle
  */
 public class InterceptConnectMessage extends InterceptAbstractMessage {
     private final ConnectMessage msg;

@@ -41,7 +41,7 @@ import org.slf4j.LoggerFactory;
  * </pre>
  * NB -n is important because echo append a newline by default at the of string. -n avoid this behaviour.
  *
- * @author andrea
+ * @author shuttle
  */
 public class FileAuthenticator implements IAuthenticator {
 

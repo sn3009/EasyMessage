@@ -28,7 +28,7 @@ import org.emsg.smart_connector.message.mqtt.ConnectMessage;
 
 /**
  *
- * @author andrea
+ * @author shuttle
  */
 public class ConnectDecoder extends DemuxDecoder {
 

@@ -28,7 +28,7 @@ import java.util.Properties;
 /**
  * Configuration that loads file from the classpath
  *
- * @author andrea
+ * @author shuttle
  */
 public class ClasspathConfig implements IConfig {
 

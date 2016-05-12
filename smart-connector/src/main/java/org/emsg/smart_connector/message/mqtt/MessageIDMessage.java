@@ -21,7 +21,7 @@ package org.emsg.smart_connector.message.mqtt;
  * 
  * The flags dup, QOS and Retained doesn't take care.
  * 
- * @author andrea
+ * @author shuttle
  */
 public abstract class MessageIDMessage extends AbstractMessage {
     protected Integer m_messageID; //could be null if Qos is == 0
